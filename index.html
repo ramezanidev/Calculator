@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+
+  <div class="container">
+    <div class="cover">
+        <div class="row showCover">
+          <div class="alert_table">
+            <span class="alert_item M_alert">M+</span>
+            <span class="alert_item P_alert">( )</span>
+          </div>
+          <span class="beforeInput"></span>
+          <input class="showInput" readonly type="text">
+        </div>
+        <div class="row col-4">
+          <button class="Delete danger" type="button">C</button>
+          <button class="Backspace danger" type="button">B</button>
+        </div>
+        <div class="row col-5">
+          <button class=" blue abs" type="button">|   |</button>
+          <button class=" blue Pow" type="button">y<span>x</span></button>
+          <button class=" blue Pow_2" type="button">x<span>2</span></button>
+          <button class=" blue Pow_3" type="button">x<span>3</span></button>
+          <button class="PI blue" type="button">&#x213C;</button>
+        </div>
+        <div class="row col-5">
+          <button class=" blue root_2" type="button">&#8730;</button>
+          <button class=" blue root_3" type="button">&#x221B;</button>
+          <button class=" blue root_4" type="button">&#x221C;</button>
+          <button class=" blue root" type="button">&#8730;<span style="top: 1px;right: 19px;">x</span></button>
+          <button class=" blue" type="button">&#x25;</button>
+        </div>
+        <div class="row col-5">
+          <button class=" blue M_add" type="button">M+</button>
+          <button class=" blue M_del" type="button">STO</button>
+          <button class=" blue M_read" type="button">RM</button>
+          <button class="P_opening dark" type="button">(</button>
+          <button class="P_close dark" type="button">)</button>
+        </div>
+        <div class="row col-4">
+          <button class="sin warning" type="button">sin</button>
+          <button class="cos warning" type="button">cos</button>
+          <button class="tan warning" type="button">tan</button>
+          <button class="Item warning" type="button">/</button>
+        </div>
+        <div class="row col-4">
+          <button class="Item gray" type="button">7</button>
+          <button class="Item gray" type="button">8</button>
+          <button class="Item gray" type="button">9</button>
+          <button class="Item warning" type="button">*</button>
+        </div>
+        <div class="row col-4">
+          <button class="Item gray" type="button">4</button>
+          <button class="Item gray" type="button">5</button>
+          <button class="Item gray" type="button">6</button>
+          <button class="Item warning" type="button">-</button>
+        </div>
+        <div class="row col-4">
+          <button class="Item gray" type="button">1</button>
+          <button class="Item gray" type="button">2</button>
+          <button class="Item gray" type="button">3</button>
+          <button class="Item warning" type="button">+</button>
+        </div>
+        <div class="row col-4">
+          <button class="Item dark" type="button">.</button>
+          <button class="Item gray" type="button">0</button>
+          <button class="Item dark" type="button">00</button>
+          <button class="output success" type="button">=</button>
+        </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+<script src="js/script.js"></script>
+
+</html>

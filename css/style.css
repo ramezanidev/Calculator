@@ -1,0 +1,152 @@
+@import url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css');
+*{
+    user-select: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'vazir' !important;
+    width: 100%;
+    height: 100vh;
+    background: -moz-radial-gradient(50% 50%, ellipse cover, #808080 0, #424242 100%);
+    background: -webkit-radial-gradient(50% 50%, ellipse cover, #808080 0, #424242 100%);
+    background: -o-radial-gradient(50% 50%, ellipse cover, #808080 0, #424242 100%);
+    background: -ms-radial-gradient(50% 50%, ellipse cover, #808080 0, #424242 100%);
+    background: radial-gradient(50% 50%, ellipse cover, #808080 0, #424242 100%);
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.cover{
+    margin: auto;
+    background-color: #fff;
+    width: 230px;
+    border: 2px solid #3a3a3a;
+    border-radius: 4px;
+    box-shadow: 0px 0px 15px 0px #000000c4;
+    padding: 7px;
+}
+.beforeInput{
+    position: absolute;
+    font-family: 'Vazir';
+    font-weight: 400;
+    color: #777777;
+    font-size: 11px;
+    width: 100%;
+    padding: 0 3px;
+    top: 22px;
+    height: 15px;
+    left: 0;
+}
+.showCover{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 60px;
+    position: relative;
+}
+.showInput{
+    width: 100%;
+    height: 100%;
+    padding: 35px 5px 1px;
+    font-family: 'Vazir';
+    font-weight: 600;
+    user-select: none;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 3px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Vazir';
+    font-size: 14px;
+    position: relative;
+    box-shadow: 1px 1px 0px 1px #222222;
+}
+button > span{
+    position: absolute;
+    right: 9px;
+    top: 1px;
+    font-family: 'Vazir';
+    font-size: 9px;
+}
+.col-4>button{
+    width: 25%;
+    height: 28px;
+}
+.col-5>button{
+    width: 20%;
+    height: 25px;
+    padding-top: 4px;
+}
+button.warning{
+    background-color: #ffc107;
+}
+button.success{
+    background-color: #198754;
+    color: #fff;
+}
+button.danger{
+    background-color: #dc3545;
+    color: #fff;
+}
+button.danger{
+    background-color: #dc3545;
+    color: #fff;
+}
+button.gray{
+    background-color: #6c757d;
+    color: #fff;
+}
+button.dark{
+    background-color: #343a40;
+    color: #fff;
+}
+button.blue{
+    background-color: #0d6efd;
+    color: #fff;
+}
+.col-5>button{
+    width: 20%;
+    height: 25px;
+}
+button:active{
+    transform: translate(1px, 1px);
+    filter: brightness(0.9);
+    box-shadow: 1px 1px 0px 0px #222222;
+}
+.alert_table{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 2px;
+    display: flex;
+}
+.alert_item{
+    margin: 0 3px;
+    font-size: 13px;
+    font-family: 'Vazir';
+    color: #cdcdcd;
+}
+.alert_active{
+    color: #000;
+    font-weight: 800;
+}
+
+
+
+
+
+
